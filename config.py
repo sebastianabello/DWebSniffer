@@ -20,7 +20,7 @@ HEADERS = {
 
 # Correo
 EMAIL_SENDER = "@gmail.com"
-EMAIL_RECEIVER = "@gmail.com"
+EMAIL_RECEIVER = "@.com"
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 SMTP_PASSWORD = ""

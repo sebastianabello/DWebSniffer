@@ -57,6 +57,7 @@ def process_domain(domain):
 
     domain_clean = domain.replace("https://", "").replace("http://", "").replace("/", "_")
     domain_path = DATA_DIR / domain_clean
+    os.makedirs(domain_path, exist_ok=True) 
     html_path = domain_path / "page.html"
     hash_path = domain_path / "hash.txt"
 
